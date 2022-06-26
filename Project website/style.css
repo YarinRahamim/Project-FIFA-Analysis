@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.html{
+    font-size: 10px;
+    font-family: "Open Sans",sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),url(1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;    
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top:42%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size:50px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.button {
+    width: 200%;
+    padding: 18px 25;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.button:hover span{
+    width: 100%;
+}
+.button:hover{
+    border: none;
+}
+
+.content2{
+    width: 100%;
+    position: absolute;
+    top:140%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content2 h2{
+    font-size:50px;
+    margin-top: 80px;
+    text-align: center
+}
+.content2 p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.content3{
+    width: 100%;
+    position: absolute;
+    top:150%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h3{
+    font-size:50px;
+    margin-top: 80px;
+    text-align: center
+}
+.content3 p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 1px;
+}
