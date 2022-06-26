@@ -1,5 +1,5 @@
 # Project-FIFA-Analysis
-Every year FIFA organization choose their best 11 players of the year.
+Every year FIFA organization choses their best 11 players of the year.
 It combines ceremony and big luxury and everyone in the football world want to be part of it.
 
 Our project will revolve around the football world – in the FIFA yearly squad.
@@ -11,11 +11,11 @@ Our reseach questions:
 2. What is the age with the biggest chance to be chosen?
 
 In our project we compared between top 5 leagues players in Europe, at the end we got the 11 best players considering their personality data.
-Also we got the avg age of this players and it shows to us which is the age with the best chance to be part of the team.
+Also we got the avg age of this players and it showed us which age has the best chance to be part of the team.
 
 In addition we created html page for the project.
 
-We hope you enjoy from the project.
+We hope you enjoy the project.
 
 Omer Norman & Yarin Rahamim.
 
