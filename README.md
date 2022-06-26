@@ -13,6 +13,8 @@ Our reseach questions:
 In our project we compared between top 5 leagues players in Europe, at the end we got the 11 best players considering their personality data.
 Also we got the avg age of this players and it shows to us which is the age with the best chance to be part of the team.
 
+In addition we created html page for the project.
+
 We hope you enjoy from the project.
 
 Omer Norman & Yarin Rahamim.
